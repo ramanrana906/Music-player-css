@@ -1,0 +1,180 @@
+
+.single-artist-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+/* single artist main container */
+.single-artist-card{
+    display: flex;
+margin: 2rem;
+height: auto;
+background-image: linear-gradient(rgb(120, 15, 106),rgb(198, 21, 98));
+width: 100%;
+
+}
+.single-artist-img img{
+    width: 70rem;
+    height: 25rem;
+   
+
+}
+
+.Single-artist-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.single-artist-details p{
+    font-size: 0.8rem;
+}
+.single-artist-details span{
+    position: relative;
+    left: 460px;
+    top: -150px;
+}
+
+.single-artist-btn{
+    display: flex;
+}
+
+.play-all-btn button{
+    margin-left:  1rem;
+    background-image: linear-gradient(rgb(38, 30, 151),rgb(198, 21, 98));
+    height: 50px;
+    width:150px;
+    padding-left: 50px;
+    border-radius: 5px;
+
+}
+.play-all-btn p{
+    margin-left: 2rem;
+}
+
+.single-artist-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+    padding-left: 1rem;
+}
+
+
+.artist-list{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 1rem;
+    margin-left: 2rem;
+padding: 10px;
+justify-content: space-between;
+    align-items:center;
+}
+.artist-list img{
+    height: 70px;
+    width: 70px;
+  margin: 1rem;
+}
+.artist-list a{
+
+    color: white;
+    
+}
+
+
+/* single artist aside */
+
+.Other-songs{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left:  4rem;
+    margin-top: 3rem;
+   
+}
+
+
+
+
+.similar-song-card{
+display: flex;
+flex-direction: row;
+
+align-items: center;
+margin-top: 1rem;
+}
+
+.similar-song-card img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.similar-song-info{
+    margin-left: 5px;
+}
+
+.drop-btn-sim{
+
+    color: white;
+ 
+    border: none;
+    position: relative;
+    top: 30px;
+ 
+  }
+
+  .dropdown-similar{
+    position: relative;
+    display: inline-block;
+top:-100px;
+left: 50px;
+  
+
+  
+
+    
+  }
+
+  .dropdown-content-rel{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    
+    z-index: 1;
+  }
+
+  .dropdown-content-rel a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-similar:hover .dropdown-content-rel {display: block;}
+
+  #view-all-btn{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left:200px;
+    top:-40px;
+    font-size: 0.8rem;
+  }
+
+  .Recently-played{
+    margin-top: 1rem;
+    background-color: #a71353;
+   
+        height: 100%;
+        min-height: 100px;
+        overflow: hidden;
+ 
+  }

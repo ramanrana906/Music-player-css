@@ -1,0 +1,271 @@
+
+
+   @media screen and (max-width:768px){
+
+
+body{
+    margin-left: 0px;
+}
+
+
+    #navbar-logo{
+        position: relative;
+        left: -2rem;
+        height: 4rem;
+        top: 0.5rem;
+       
+    }
+    #navbar-logo img{
+        height: 2rem;
+        
+    }
+    .navbar-list{
+        display: none;
+     
+    }
+    .search{
+     display: none;
+       
+    }
+
+.user-img{
+position: relative;
+top: 1rem;
+right: 30%;
+left: 0rem;
+bottom: 1rem;
+}
+.icon-burger a{
+    display: block;
+    position: relative;
+    right: 45%  ;
+}
+
+
+
+
+
+
+    
+    
+    main{
+        
+        flex-direction: column;
+    }
+
+    .main-container{
+        position: relative;
+        margin-left: 0;
+
+        
+    }
+
+    
+    .playlist-container{
+        display: flex;
+       
+       
+        flex-direction: column;
+    }
+    
+
+    .new-release-card{
+        flex-direction: column;
+    }
+    .card-set-1{
+     
+     flex-direction: column;
+        
+    }
+    .card-set-2{
+        flex-direction: column;
+    }
+        
+    .drop-btn-rel{
+        position: relative;
+    color: white;
+        top: -100px;
+        left: 70px;
+    border: none;
+ 
+        }
+    
+        .popular-artists-section{
+            flex-direction: column;
+           
+          }
+
+          .artist-button{
+            position: relative;
+          left: 60px;
+          top: -120px;
+        
+      
+        
+     }
+     .music-staion-section{
+      flex-direction: column;
+     
+      }
+
+      .mood-container{
+        flex-direction: column;
+      }
+
+      .song-section{
+        flex-direction: column;
+      }
+      .Queue-container{
+        width: 100%;}
+
+        .music-info h6,span{
+            margin: 0;
+           
+            font-size: 0.6rem;
+            
+          }
+          .music-info{
+            margin-left: 5px;
+            text-align: left;
+          }
+
+
+    .audio-player{
+      
+       
+      
+      
+       width: 40%;
+       
+       display: flex;
+       flex-direction: column;
+       
+       
+     
+     }
+
+
+     .audio-player img{
+        height: 70px;
+        width: 70px;
+        margin-left: 1rem;
+      
+      }
+      .song-info{
+        padding: 0px;
+      }
+      .song-info h6,span{
+    margin: 0;
+    padding-left: 30px;
+      }
+
+      .audio-player-section{
+        display: flex;
+        flex-direction: column;
+      }
+     .audio-logo{
+        
+        margin-left: 0rem;
+        margin-top: 2rem;
+      }
+
+
+
+      .audio-icons{
+        
+        top: 10px;
+       left: 30px;
+        }
+
+        audio {
+            width: 80%;
+            height: 6px;
+          }
+
+
+         
+        .single-artist-main{
+          display: flex;
+          flex-direction: column;
+        }
+ 
+
+
+        
+.single-artist-container{
+  width: 100%;
+  margin: 0!important;
+  
+}
+.single-artist-card{
+ flex-direction: column;
+  
+}
+
+
+.Other-songs{
+  
+  width: 100%;
+ 
+}
+
+.similar-artist{
+  width: 100%;
+}
+
+.single-info {
+  margin-left: 1rem;
+  margin: right 0 !important;
+}
+
+.single-artist-details span{
+  display: none;
+}
+.Recently-played{
+  width: 460px;
+}
+
+    }
+    
+    @media screen and (max-width:1080px){
+
+        .queue-heart{
+            display: none;
+          }
+
+          .song-info h6,span{
+           font-size: 0.8rem;
+           
+              }
+              .audio-player img{
+                height: 100px;
+                width: 100px;
+                margin: 1rem;
+               
+              }
+              .song-info {
+                margin-left: 1rem;
+               padding: 20px;
+                   }
+              
+.audio-player-section{
+    display: flex;
+    margin: 1rem;
+   
+  }
+  .audio-logo{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .artist-list img{
+    height: 25px;
+    width: 25px;
+  margin: 0;
+}
+.artist-list {
+  
+margin: 0;
+}
+    }
+  

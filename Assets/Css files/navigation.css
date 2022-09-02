@@ -1,0 +1,72 @@
+
+#navbar-logo img{
+    height: 4rem;
+    border-radius: 25%;
+}
+
+/* nabbar list */
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: white;
+   padding: 1rem;
+   display: block;
+    font-size: 1.5rem;
+    transition: 1s;
+    
+}
+.navbar-list li :hover{
+
+ background-color: darkgrey;
+
+   font-size: 20px;
+}
+/* Search bar */
+
+.search{
+
+   display: flex;
+}
+.search form{
+    border: 1px solid none;
+  border-radius: 20px;
+  background-color: #81083c;
+  
+    
+}
+.search form input{
+    margin-top: 1rem;
+}
+.search form input, button{
+    border: none;
+background-color: transparent;
+resize: none;
+outline: none;
+text-align: left;
+padding-top: 5px;
+color: white;
+font-size: 1rem;
+    
+}
+#bell {
+   
+ margin-left: 0;
+}
+
+
+.user-img img{
+    
+    border-radius: 100px;
+    height: 60px;
+    
+}
+
+.icon-burger a{
+    display: none;
+    color: white;
+}
